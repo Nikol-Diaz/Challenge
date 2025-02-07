@@ -63,12 +63,11 @@ Estas visualizaciones ayudaron a obtener intuiciones importantes sobre cómo las
 
 ### Requisitos
 
-- Python 3.x
 - Pandas
-- NumPy
 - Matplotlib (para visualización)
 - Seaborn (para visualización)
 - Scikit-learn
+- Entre otros
 
 ### Instrucciones
 
