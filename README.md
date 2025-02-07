@@ -77,11 +77,8 @@ Estas visualizaciones ayudaron a obtener intuiciones importantes sobre cómo las
    ```bash
    pip install -r requirements.txt
    ```
-3. Ejecuta el script para entrenar el modelo y realizar las predicciones:
-   ```bash
-   python prueba_tecnica 1.py
-   ```
-4. El archivo de predicción se generará como `titanic_predictions.csv`, que contiene las predicciones de supervivencia de los pasajeros del conjunto de prueba.
+
+3. El archivo de predicción se generará como `titanic_predictions.csv`, que contiene las predicciones de supervivencia de los pasajeros del conjunto de prueba.
 
 ## Conclusión
 
