@@ -1,0 +1,6 @@
+pandas==2.2.2
+IPython== 8.24.0
+matplotlib==3.9.0
+seaborn==0.13.0
+spyce==0.16.0
+scikit-learn==1.5.0
