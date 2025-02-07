@@ -56,6 +56,7 @@ Antes de entrenar el modelo, se realizó una exploración y visualización de lo
 - **Distribución de la edad**: Se generó un histograma para visualizar la distribución de las edades de los pasajeros. Se observó que muchos pasajeros eran jóvenes o adultos jóvenes.
 - **Supervivencia por clase**: Se creó un gráfico de barras para mostrar la tasa de supervivencia en cada clase (Pclass). La primera clase tenía una tasa de supervivencia mucho más alta que las clases inferiores.
 - **Supervivencia por sexo**: Se visualizó la supervivencia en función del sexo. Las mujeres tuvieron una tasa de supervivencia significativamente mayor que los hombres.
+- **Distribución de la Tarifa por Clase**: Se utilizó un boxplot para visualizar cómo varían las tarifas según la clase de los pasajeros. Este gráfico mostró que los pasajeros de la primera clase pagaron significativamente más que los de la tercera clase pero hay situaciones en las que el precio de la tercera se acerca a la primera.
 
 Estas visualizaciones ayudaron a obtener intuiciones importantes sobre cómo las características afectaban la supervivencia y ayudaron a guiar la selección de los mejores modelos.
 
@@ -78,10 +79,10 @@ Estas visualizaciones ayudaron a obtener intuiciones importantes sobre cómo las
    ```
 3. Ejecuta el script para entrenar el modelo y realizar las predicciones:
    ```bash
-   python titanic_model.py
+   python prueba_tecnica 1.py
    ```
 4. El archivo de predicción se generará como `titanic_predictions.csv`, que contiene las predicciones de supervivencia de los pasajeros del conjunto de prueba.
 
 ## Conclusión
 
-Este proyecto muestra cómo la elección del modelo adecuado y la sintonización de sus hiperparámetros pueden mejorar significativamente el rendimiento en un problema de clasificación. Aunque inicialmente probamos con varios modelos, el Random Forest fue el más adecuado para este conjunto de datos, brindando un rendimiento robusto y preciso. 
+Este proyecto muestra cómo la elección del modelo adecuado y la sintonización de sus hiperparámetros pueden mejorar significativamente el rendimiento en un problema de clasificación. Aunque inicialmente probe con varios modelos, el Random Forest fue el más adecuado para este conjunto de datos, brindando un rendimiento robusto y preciso. 
